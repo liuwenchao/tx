@@ -1,0 +1,10 @@
+.bars-container {
+    padding: 100px;
+}
+
+.bar {
+    display: inline-block;
+    background: #f00;
+    width: 300px;
+    margin: 0 5px;
+}
