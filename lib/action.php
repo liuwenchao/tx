@@ -1,7 +1,7 @@
 <?
 class Action {
     public static function index() {
-        Response::render('index');
+        Response::render('index', $_REQUEST);
     }
 }
 ?>
