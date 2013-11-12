@@ -6,7 +6,7 @@
     <script src="js/index.js"></script>
     <script>
         $(function() {
-            TX.build_bars("#bars", <?php echo $bars ? $bars : 4?>);
+            TX.build_bars("#bars", <?php echo $bars ?>);
         });
     </script>
 </head>
