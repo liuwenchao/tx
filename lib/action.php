@@ -33,8 +33,8 @@ class Action {
         if (!(isset($bars) 
             && is_numeric($bars) 
             && $bars > 0
-            // probly another number so browser won't crash.
-            && $bars < PHP_INT_MAX
+            // 50 is meaningful than PHP_INT_MAX here.
+            && $bars < 50
             )) {
             return false;
         }
