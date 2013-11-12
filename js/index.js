@@ -18,7 +18,7 @@
             });
         },
         build_html: function(bar) {
-            return $('<div>').addClass('bar').css({height: bar.height * 10});
+            return $('<div>').addClass('bar').css({height: bar.height * 10, width: 100/this.bars.length + '%'});
         }
     };
 })(jQuery);
